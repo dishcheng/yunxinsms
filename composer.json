@@ -1,10 +1,13 @@
 {
   "name": "dishcheng/yunxinsms",
-  "description": "网易云短信包",
+  "description": "laravel网易云短信sdk",
   "keywords": [
     "sms",
     "laravel",
-    "yunxin"
+    "yunxin",
+    "网易云信",
+    "短信",
+    "云信"
   ],
   "license": "MIT",
   "authors": [
