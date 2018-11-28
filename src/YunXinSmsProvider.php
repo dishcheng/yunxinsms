@@ -14,16 +14,13 @@ class YunXinSmsProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            dirname(__DIR__) . '/config/yunxinsms.php' => config_path('yunxinsms.php'),],
+            dirname(__DIR__) . '/../config' => config_path(),],
             'yunxinsms'
         );
     }
 
     public function register()
     {
-
-        $this->mergeConfigFrom(__DIR__ . '/config/yunxinsms.php', 'aliyunsms');
-
         $this->app->bind(YunXinSms::class, function () {
             return new YunXinSms();
         });
