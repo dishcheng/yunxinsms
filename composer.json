@@ -1,0 +1,37 @@
+{
+  "name": "dishcheng/yunxinsms",
+  "description": "网易云短信包",
+  "keywords": [
+    "sms",
+    "laravel",
+    "yunxin"
+  ],
+  "type": "composer-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "caicheng",
+      "email": "251329204@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/framework": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "DishCheng\\YunXinSms\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "YunXinSms\\YunXinSmsProvider"
+      ],
+      "aliases": {
+        "YunXinSms": "DishCheng\\YunXinSms\\Facades\\Sms"
+      }
+    }
+  },
+  "minimum-stability": "dev"
+}
