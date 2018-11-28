@@ -6,7 +6,6 @@
     "laravel",
     "yunxin"
   ],
-  "type": "composer-plugin",
   "license": "MIT",
   "authors": [
     {
