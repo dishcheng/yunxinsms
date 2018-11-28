@@ -14,7 +14,7 @@ class YunXinSmsProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            dirname(__DIR__) . '/../config' => config_path(),],
+            __DIR__ . '/../config' => config_path(),],
             'yunxinsms'
         );
     }
