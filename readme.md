@@ -22,6 +22,6 @@ var_dump(YunXinSms::code_post($params));
 ### 通知类短信
 ```php
 $params = ['mobiles' => json_encode([xxxxxxx]), 'templateid' => 'xxxxxxx', 'params' => json_encode([xxxx, xxxx, xxxx])];
-$response = self::notice_post($params);
+$response = YunXinSms::notice_post($params);
 var_dump($response);
 ```
