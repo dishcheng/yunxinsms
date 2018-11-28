@@ -22,15 +22,5 @@
       "DishCheng\\YunXinSms\\": "src/"
     }
   },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "YunXinSms\\YunXinSmsProvider"
-      ],
-      "aliases": {
-        "YunXinSms": "DishCheng\\YunXinSms\\Facades\\Sms"
-      }
-    }
-  },
   "minimum-stability": "dev"
 }
